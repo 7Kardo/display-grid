@@ -6,7 +6,6 @@ body{
     
  }
  div{
-    height: 100%;
     width: 100%;
     background-color: chocolate;
  }
@@ -22,6 +21,7 @@ body{
     grid-column: 1/-1;
     display: flex;
     align-items: center;
+    justify-content:    space-between;
     
    
  }
@@ -58,15 +58,16 @@ body{
     background-color: blue;
     border-radius: 10px;
  }
-section div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+    
   
-}div li{
+div li{
     display:inline-block;
     margin: 10px;
    list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 div li a{
    text-decoration: none;
@@ -87,10 +88,18 @@ div li a{
     input{
       margin: 5px;
       border-radius: 10px;
-      padding: 3px 10px;
+      padding:8px ;
       outline: none;
       border: none;
+      display: flex;
+      justify-content: end;
+      align-items: center;
     }
     div{
       border-radius: 10px;
     }
+   img{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+   }
